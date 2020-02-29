@@ -35,8 +35,8 @@ def solve4(text):
     return final
 
 
-def menu():
+def main():
     test4()
 
 
-menu()
+main()

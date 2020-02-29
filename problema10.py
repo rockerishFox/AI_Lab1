@@ -47,8 +47,8 @@ def solve10(matrix):
     return line + 1
 
 
-def menu():
+def main():
     tests10()
 
 
-menu()
+main()
