@@ -21,14 +21,14 @@ def solve8(n):
     result = []
     q.put("1")
     while (n > 0):
-        n -= 1
-
         s1 = q.get()
         result.append(s1)
 
         s2 = s1
         q.put(s1 + "0")
         q.put(s2 + "1")
+        n-=1
+
     return result
 
 def main():

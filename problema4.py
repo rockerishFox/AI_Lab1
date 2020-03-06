@@ -11,8 +11,6 @@ def test4():
     string = "a a b b a c d e"
     assert (solve4(string) == "c d e ")
 
-
-
     print("Teste problema 4 - done!")
 
 
