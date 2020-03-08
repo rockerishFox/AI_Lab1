@@ -17,11 +17,11 @@ def test4():
 def solve4(text):
     contor = []
     for word in text.split():
-        found = 0
+        found = False
         for el in contor:
             if el[0] == word:
                 el[1] += 1
-                found = 1
+                found = True
                 break
         if not found:
             contor.append([word, 1])
